@@ -12,25 +12,26 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--tertiary-color)
 }
 
 header {
     padding: 20px 35px;
-    background-color:var(--primary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-image: url(../images/nav-background.jpeg);
+    background-size: cover;
 }
 header h1 {
     font-weight: bold;
     font-size: 50px;
-    color: var(--quaternary-color);
+    color: var(--primary-color);
     margin: 0;
+    text-decoration: underline;
 }
 header a {
     text-decoration: none;
-    color: var(--quaternary-color) ;
+    color: var(--primary-color) ;
 }
 header nav {
     margin: 7px 0;
@@ -41,6 +42,7 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    text-decoration: underline;
   }
 header nav ul li a {
     margin: 0 30px;
@@ -48,7 +50,31 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+h2 {
+    text-decoration: underline;
+}
+.about-me {
+    color: var(--primary-color);
+    background-color: var(--quaternary-color);
+    text-align: center;
+}
+
+.my-work {
+    color: var(--quaternary-color);
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.contact-me {
+    color: var(--primary-color);
+    background-color: var(--quaternary-color);
+    text-align: center;
+
+}
+
 .contact-me a {
     text-decoration: none;
-    color: var(--tertiary-color) ;
+    color: var(--primary-color) ;
+    text-align: center;
 }
+
