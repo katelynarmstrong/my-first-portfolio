@@ -69,12 +69,20 @@ h2 {
 
 .horiseon {
     padding-bottom: 20px;
+    height: 300px;
 }
 
 .primary-image {
     height: 250px;    
     width: 450px; 
+    float: left;
 }
+
+.secondary-images {
+        height: 150px;    
+        width: 250px; 
+        float: right;
+    }
 
 .contact-me {
     color: var(--primary-color);
