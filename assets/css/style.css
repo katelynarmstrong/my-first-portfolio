@@ -64,21 +64,16 @@ h2 {
     color: var(--quaternary-color);
     background-color: var(--primary-color);
     text-align: center;
+    padding: 20px 35px;
 }
 
 .horiseon {
-    border: solid black 5px;
-    height: 800px;    
-    width: 100%;    
-    margin-bottom: 25px;
+    padding-bottom: 20px;
 }
 
-.image-link {
-    border: solid red 4px;
-}
-.the-image {
-    border: solid orange 4px;   
-    width: 100%;
+.primary-image {
+    height: 250px;    
+    width: 450px; 
 }
 
 .contact-me {
