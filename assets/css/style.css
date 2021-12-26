@@ -1,8 +1,6 @@
 :root {
   --primary-color: #e5efc1;
-  --secondary-color: #a2d5ab;
-  --tertiary-color: #39aea9;
-  --quaternary-color: #557b83;
+  --secondary-color: #557b83;
 }
 * {
     margin: 0;
@@ -55,7 +53,7 @@ h2 {
 }
 .about-me {
     color: var(--primary-color);
-    background-color: var(--quaternary-color);
+    background-color: var(--secondary-color);
     text-align: center;
     padding: 20px 35px;
     display: flex;
@@ -70,7 +68,7 @@ h2 {
 }
 
 .my-work {
-    color: var(--quaternary-color);
+    color: var(--secondary-color);
     background-color: var(--primary-color);
     text-align: center;
     padding: 20px 35px;
@@ -108,7 +106,7 @@ h2 {
 
 .contact-me {
     color: var(--primary-color);
-    background-color: var(--quaternary-color);
+    background-color: var(--secondary-color);
     text-align: center;
     padding: 20px 5px;
 
