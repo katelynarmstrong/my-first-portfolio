@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
@@ -27,7 +27,7 @@ header h1 {
     font-size: 50px;
     color: var(--primary-color);
     margin: 0;
-    text-decoration: underline;
+    text-decoration: none;
 }
 header a {
     text-decoration: none;
@@ -60,6 +60,12 @@ h2 {
     padding: 20px 35px;
 }
 
+.profile-pic {
+    height: 260px;
+    width: 200px;
+    padding: 10px;
+}
+
 .my-work {
     color: var(--quaternary-color);
     background-color: var(--primary-color);
@@ -67,23 +73,21 @@ h2 {
     padding: 20px 35px;
 }
 
-.horiseon {
+.works {
     padding-bottom: 20px;
     height: 300px;
 }
 
 .primary-image {
-    height: 250px;    
+    height: 300px;    
     width: 450px; 
-    float: left;
     padding: 10px;
 }
 
 .secondary-images {
-        height: 150px;    
-        width: 250px; 
-        float: right;
-        padding: 10px;
+        height: 200px;    
+        width: 350px; 
+        padding: 2px
 }
 
 .contact-me {
