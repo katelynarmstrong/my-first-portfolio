@@ -71,6 +71,8 @@ h2 {
     background-color: var(--primary-color);
     text-align: center;
     padding: 20px 35px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .works {
@@ -82,12 +84,15 @@ h2 {
     height: 300px;    
     width: 450px; 
     padding: 10px;
+    display: flex;
 }
 
 .secondary-images {
         height: 200px;    
         width: 350px; 
-        padding: 2px
+        padding: 2px;
+        margin-top: 50px;
+        display: flex;
 }
 
 .contact-me {
