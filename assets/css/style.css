@@ -58,6 +58,9 @@ h2 {
     background-color: var(--quaternary-color);
     text-align: center;
     padding: 20px 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .profile-pic {
@@ -93,6 +96,14 @@ h2 {
         padding: 2px;
         margin-top: 50px;
         display: flex;
+}
+
+.primary-image:hover {
+    transform: scale(1.5);
+}
+
+.secondary-images:hover {
+    transform: scale(1.5);
 }
 
 .contact-me {
