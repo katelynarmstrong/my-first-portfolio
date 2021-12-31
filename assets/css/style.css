@@ -76,6 +76,12 @@ h2 {
     flex-wrap: wrap;
 }
 
+.my-work-title {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
 .works {
     padding-bottom: 20px;
     height: 300px;
