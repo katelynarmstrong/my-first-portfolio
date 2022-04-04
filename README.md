@@ -8,4 +8,4 @@ https://github.com/katelynarmstrong/my-first-portfolio
 ## Deployed URL:
 https://katelynarmstrong.github.io/my-first-portfolio/
 ## Screenshot:
-![Screen Shot 2022-02-05 at 1 16 08 PM](https://user-images.githubusercontent.com/93275108/152655694-4cc1e89c-0eab-463b-a2ba-a7c84ed49fab.png)
+![Screen Shot 2022-04-03 at 9 10 05 PM](https://user-images.githubusercontent.com/93275108/161462742-7cf25977-c137-4b22-8f4f-1d61d2eaa584.png)
